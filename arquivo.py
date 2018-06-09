@@ -33,3 +33,4 @@ while True:
     if cidades.lower() == 'sair':
         break
     arquivo.write(cidades + '\n')
+    
