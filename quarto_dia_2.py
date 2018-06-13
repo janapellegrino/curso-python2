@@ -5,6 +5,7 @@ with open('frutas.txt', 'r') as arquivo:
         x = x.replace('\n', '')
         aux.append(x)
 print(aux)
+aux.append('Pessego')
 with open('frutas2.txt', 'w') as arquivo:
     for item in aux:
         arquivo.write('Fruta: {}\n'.format(item.title()))
